@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .completed {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task Manager</h1>
+    <input type="text" id="task-input" placeholder="Task description">
+    <button class="addTaskBtn">Add Task</button>
+    <h3>Search Tasks</h3>
+    <input type="text" id="search-input" placeholder="Search tasks by name" oninput="searchTasks()">
+    <h3>Tasks</h3>
+    <div class="tasksContainer"></div>
+    <script src="/script/main.js"></script>
+</body>
+</html>
